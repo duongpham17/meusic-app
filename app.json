@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Meusic",
+    "slug": "meusic-for-us",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/meusic.png",
+    "splash": {
+      "image": "./assets/meusic.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "description": "Music for you and me :)",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
